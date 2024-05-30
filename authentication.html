@@ -13,16 +13,16 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-            <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+        <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
-<script>"https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";</script>
-<script>"https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"</script>
+        <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"></script>
+        <script scr="https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"></script>
 
-    <!-- Our script must be loaded after firebase references -->
-    <script src="auth.js"></script>
+        <!-- Our script must be loaded after firebase references -->
+        <script src="auth.js"></script>
         <div id="content_container">
             <div id="form_container">
                 <div id="form_header_container">
@@ -34,9 +34,6 @@
                         <input type="text" id="username" placeholder="Username">
                         <input type="email" id="email" placeholder="Email">
                         <input type="password" id="password" placeholder="New Password">
-
-
-
                         <div id="button_container">
                             <button onclick="login()">Login</button>
                             <button onclick="register()">Register</button>
