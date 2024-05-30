@@ -6,6 +6,8 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    color: #fff;
 }
 
 * {
@@ -74,6 +76,8 @@ html, body {
     border-bottom: 1px solid transparent;
     border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
     background: #000;
+
+    color: #fff;
 }
 
 #form_header {
