@@ -63,7 +63,7 @@ html, body {
 }
 
 #content_button {
-    width: 100%;
+    width: 10%;
     height: 5%;
 
     display: flex;
@@ -76,7 +76,6 @@ html, body {
     border-bottom: 1px solid transparent;
     border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
     background: #000;
-
     color: #fff;
 }
 
