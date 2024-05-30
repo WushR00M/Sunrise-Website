@@ -79,6 +79,23 @@ html, body {
     color: #fff;
 }
 
+#navbar-buttons {
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #000;
+    color: #fff;
+}
+
 #form_header {
     display: inline-block;
     font-size: 15px;
@@ -157,6 +174,44 @@ input {
     letter-spacing: 1px;
     font-weight: 900;
     font-size: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #000;
+}
+
+.topnav button {
+        width: 50%;
+    height: 100%;
+    float: left;
+
+    background: transparent;
+    color: #FFF;
+
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 18px;
 
     cursor: pointer;
 
