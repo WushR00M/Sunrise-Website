@@ -20,6 +20,17 @@ html, body {
     height: 70%;
 }
 
+#window_container {
+    width: 70%;
+    height: 70%;
+
+    background-color: #370617;
+    box-shadow: 0 0 50px -20px #000;
+    border-radius: 2%;
+
+    overflow: hidden;
+}
+
 #form_container {
     width: 100%;
     height: 100%;
@@ -43,6 +54,22 @@ html, body {
     padding: 20px;
     padding-bottom: 30px;
     padding-top: 30px;
+
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
+    background: #000;
+}
+
+#content_button {
+    width: 100%;
+    height: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 20px;
 
     border-bottom: 1px solid transparent;
     border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 20;
