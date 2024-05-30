@@ -23,12 +23,12 @@ function register () {
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
-    alert('Email or Password is Outta Line!!')
+    alert('Insert a valid email or password!')
     return
     // Don't continue running the code
   }
   if (validate_field(username) == false) {
-    alert('One or More Extra Fields is Outta Line!!')
+    alert('Insert a valid username!')
     return
   }
  
@@ -71,7 +71,7 @@ function login () {
 
   // Validate input fields
   if (validate_email(email) == false || validate_password(password) == false) {
-    alert('Email or Password is Outta Line!!')
+    alert('Email or Password is incorrect')
     return
     // Don't continue running the code
   }
@@ -93,7 +93,7 @@ function login () {
     database_ref.child('users/' + user.uid).update(user_data)
 
     // DOne
-    alert('User Logged In!!')
+    alert('Login finished')
 
   })
   .catch(function(error) {
